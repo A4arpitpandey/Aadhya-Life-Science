@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+*body {
+  background-color: f4f4f4;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: aliceblue;
+  padding: 15px 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+header img {
+  height: 60px;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+/* nav ul li {
+  display: inline;
+} */
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #00e68a;
+}
+
+.banner {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+  align-items: center;
+  background: linear-gradient(to right, #00e68a, #333);
+}
+
+.banner img {
+  width: 40%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.company {
+  color: white;
+  max-width: 600px;
+  text-align: left;
+}
+.company h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.company span {
+  color: #ffc107;
+  font-size: 1.2em;
+}
+
+.company p {
+  font-size: 1.2em;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.company button {
+  padding: 10px 20px;
+  background-color: #ffc107;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.company button:hover {
+  background-color: #00e68a;
+  color: white;
+}

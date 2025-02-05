@@ -42,56 +42,6 @@ nav ul li a:hover {
   color: #00e68a;
 }
 
-.hero-section {
-  position: relative;
-  width: 100%;
-}
-
-.background-img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.inquiry-form {
-  position: absolute;
-  top: 5%;
-  right: 1%;
-  background-color: rgba(255, 255, 255, 0.9);
-  padding: 30px;
-  border-radius: 10px;
-  z-index: 1;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-}
-
-.inquiry-form input,
-textarea {
-  width: 100%;
-  padding: 20px;
-  margin: 5px 0;
-  border-radius: 5px;
-  border: 1px solid black;
-  font-size: 14px;
-}
-
-.submit-form {
-  color: #fff;
-  font-size: 20px;
-  padding: 15px;
-  width: 100%;
-  font-weight: 900;
-  background-color: crimson;
-  margin: 5px 0;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.submit-form:hover {
-  background-color: #b30000;
-}
-
 footer {
   background-color: #1c1c1c;
   color: #f1f1f1;
